@@ -39,7 +39,7 @@ arr[arr < -999] = np.NaN
 x = cdf_data['Epoch1']
 
 # y = cdf_data['B1GSE'][:, 2]
-
+#message
 fig, ax = plt.subplots()
 
 ax.plot(x, arr, linewidth=2.0)
